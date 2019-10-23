@@ -71,7 +71,7 @@ class Images extends Component {
                 <span className="fa fa-list-alt"></span>Add Image
               </button>
               {
-                this.state.images.map((image) => <img key={image._id} src={image.link} alt="image" /> )
+                this.state.images.map((image) => <img key={image._id} src={image.link} alt="" /> )
               }
             </Fragment>
           ) : (
